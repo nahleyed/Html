@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+}
+.logo{
+    text-align: left;
+    font-size: 26px;
+    font-weight: 700;
+}
+.logo h1{
+    color: rgb(253, 117, 6);
+}
+.logo h1:hover{
+    color: rgb(245, 244, 244);
+    transition: 0.8 ease-in;
+}
+.logo span{
+    color: rgb(240, 242, 243);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 65px;
+}
+.navbar{
+    text-align: center;
+}
+.navbar ul{
+   display: flex;
+   list-style-type: none;
+} .navbar ul a{
+    text-decoration: none;
+    margin-left: 25px;
+    justify-items: end;
+    padding-left: 35px;
+    margin-left: 55px;
+    padding-top: 55px;
+}.navbar ul a{
+    color: rgb(245, 238, 238);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+.navbar a:hover{
+    color: rgb(252, 106, 9);
+    transition: 0.5 ease-in-out;
+}
+.navbar a:active{
+    color:rgb(208, 9, 9);
+}
+body{
+
+
+     margin: 0;
+     padding: 0;
+     height: 100%;
+     }
+     .image-full{
+        background-image: url('adb4a57e-eb28-4bff-94c2-1cf30091e9a4.jfif');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+     }
+     main{
+        padding-top: 25px;
+        padding-left: 8px;
+     }
+    h2{
+    font-size: 45px;
+    color: aliceblue;
+    padding-left: 23px;
+    }
+    footer{
+        padding: 10px 10px;
+    }
